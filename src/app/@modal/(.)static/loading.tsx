@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const LoadingStaticPage = () => {
-  return (
-    <h2>Loading...</h2>
-  )
-}
+  return <h2>Loading intercepting - Static...</h2>;
+};
 
-export default LoadingStaticPage
+export default LoadingStaticPage;
