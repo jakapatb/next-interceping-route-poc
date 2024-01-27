@@ -22,12 +22,9 @@ export default function Home() {
       Expectation from each page:
       <ul className="list-disc pl-6">
         <li>
-          loading.js of shop should fetched when /shop link display in viewport
+          loading.js of shop should fetched when the link display in viewport
         </li>
-        <li>
-          the loading state should be displayed when navigating to /shop
-          instantly
-        </li>
+        <li>the loading state should be displayed when navigating instantly</li>
       </ul>
       <br />
       <p>NOTE: open Network panel in inspect and select Slow 3G</p>
@@ -40,6 +37,11 @@ export default function Home() {
           Shop page
         </Link>
       </span>
+      <h3 className="font-semibold text-lg">Result:</h3>
+      <ul className="list-disc pl-6">
+        <li>✅ loading.js is fetched</li>
+        <li>✅ instantly display loading state</li>
+      </ul>
       <p>
         {`FAQ How to check loading state is fetched : search 'Loading Shop page'`}
       </p>
@@ -53,6 +55,11 @@ export default function Home() {
           Quest page
         </Link>
       </span>
+      <h3 className="font-semibold text-lg">Result:</h3>
+      <ul className="list-disc pl-6">
+        <li>✅ loading.js is fetched</li>
+        <li>❌ instantly display loading state</li>
+      </ul>
       <p>
         {`FAQ How to check loading state is fetched : search 'Loading Quest page'`}
       </p>
@@ -66,6 +73,11 @@ export default function Home() {
           Static page
         </Link>
       </span>
+      <h3 className="font-semibold text-lg">Result:</h3>
+      <ul className="list-disc pl-6">
+        <li>✅ loading.js is fetched</li>
+        <li>✅ instantly display loading state</li>
+      </ul>
       <p>
         {`FAQ How to check loading state is fetched : search 'Loading intercepting - Static'`}
       </p>
@@ -79,6 +91,11 @@ export default function Home() {
           dynamic params page - id = 123
         </Link>
       </span>
+      <h3 className="font-semibold text-lg">Result:</h3>
+      <ul className="list-disc pl-6">
+        <li>❌ loading.js is fetched</li>
+        <li>❌ instantly display loading state</li>
+      </ul>
       <p>
         {`FAQ How to check loading state is fetched : search 'Loading intercepting - Dynamic params'`}
       </p>
