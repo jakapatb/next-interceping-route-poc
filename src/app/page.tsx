@@ -30,7 +30,7 @@ export default function Home() {
         </li>
       </ul>
       <br />
-      <p>NOTE: open Network panel in inspect</p>
+      <p>NOTE: open Network panel in inspect and select Slow 3G</p>
       <p>NOTE 2: command + Shift + R to hard refresh (ignore cache)</p>
       {/* divider */}
       <div className="my-8 border-b border-gray-200" />
